@@ -4,7 +4,7 @@ A single-page responsive marketing website for SoftSell, a fictional software re
 
 ## 🚀 Live Demo
 
-[https://softsell.vercel.app](https://softsell.vercel.app)
+[https://softsell-topaz-two.vercel.app/](https://softsell-topaz-two.vercel.app/)
 
 ## 📂 Github Repository
 
@@ -16,8 +16,8 @@ A single-page responsive marketing website for SoftSell, a fictional software re
 
 - **Hero Section**
 
-  - Two-column layout with headline, subheading, CTA button and demo image
-  - Solid light/dark-mode-aware background (no gradient)
+  - Two-column layout with headline, subheading, CTA button and an image
+  - Solid light/dark-mode-aware background
 
 - **How It Works**
 
@@ -58,10 +58,12 @@ A single-page responsive marketing website for SoftSell, a fictional software re
 
 - **Animations**
 
-  - Section fade-in on scroll via Framer Motion + Intersection Observer
   - Card hover scale for visual polish
+  - `active:scale-95` for interactive button clicks
+  - bouncy icon for mock-ai chatbot
 
 - **AI-Style Chat Widget**
+
   - Floating chat bubble
   - Canned LLM-like responses for common questions
   - Mobile/desktop support, light/dark mode
@@ -89,7 +91,7 @@ A single-page responsive marketing website for SoftSell, a fictional software re
 - **Icons & Imagery**:
 
   - Heroicons for consistency with Tailwind’s ecosystem
-  - Placeholder demo image in hero (replace `public/hero-demo.png` with your own)
+  - Demo image in hero section
 
 - **User Experience**:
   - Smooth animations to draw attention without distraction
@@ -100,17 +102,17 @@ A single-page responsive marketing website for SoftSell, a fictional software re
 
 ## ⏱ Time Spent
 
-Approximately **8–10 hours** over two days:
+Approximately **5–8 hours** spend in two days:
 
 1. **Day 1**
 
-   - Project setup, Hero, “How It Works”, “Why Choose Us” (4 hrs)
-   - Testimonials & Contact Form (+ frontend validation) (2 hrs)
+   - Project setup, Hero, “How It Works”, “Why Choose Us” 
+   - Testimonials & Contact Form (+ frontend validation)
 
 2. **Day 2**
-   - Navbar + Dark Mode Toggle (1.5 hrs)
-   - SEO meta tags, favicon, demo image (1 hr)
-   - Animations & Chat Widget (1.5 hrs)
+   - Navbar + Dark Mode Toggle
+   - SEO meta tags, favicon, demo image
+   - Animations & Chat Widget
 
 ---
 
@@ -121,7 +123,7 @@ Approximately **8–10 hours** over two days:
 - **Icons**: @heroicons/react
 - **Forms**: react-hook-form
 - **Animations**: Framer Motion
-- **Deployment**: Vercel (or Netlify / GitHub Pages)
+- **Deployment**: Vercel
 
 ---
 
@@ -129,28 +131,29 @@ Approximately **8–10 hours** over two days:
 
 1. **Clone the repo**
 
-    ```bash
-    git clone https://github.com/your-username/softsell.git
-    cd softsell
-    ```
+   ```bash
+   git clone https://github.com/giriexplores/softsell.git
+   cd softsell
+   ```
 
 2. **Install Dependencies**
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 3. **Run Dev Server**: Check if everything is working fine.
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
 4. **Build for Production**
 
-    ```bash
-    npm run build
-    ```
+   ```bash
+   npm run build
+   ```
 
 5. **Deploy**
+
 - Push to Github and connect to Vercel (or netlify) for automatic deploys.
